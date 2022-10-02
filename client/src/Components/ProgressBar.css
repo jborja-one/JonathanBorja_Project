@@ -1,0 +1,116 @@
+.progress-bar {
+    /* display: block; */
+    position: relative;
+    width: 90%;
+    height: 60px;
+    background: #eedec9;
+	border: 0;
+	border-radius:50px;
+	text-align: left;
+    margin: 0 auto;
+  }
+
+  .bar-section_1{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    border-right: 3px solid #000;
+  }
+
+  .bar-section_2{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+    left: 50%;
+    border-right: 3px solid #000;
+  }
+
+  .bar-section_3{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+    left: 65%;
+    border-right: 3px solid #000;
+  }
+
+  .bar-section_4{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+    left: 80%;
+    border-right: 3px solid #000;
+  }
+
+  .marker-list{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+  }
+
+    .marker{
+        position: absolute;
+        z-index: 999;
+    }
+
+.bar-section__footer{
+    display: flex;
+    justify-content: center;
+}
+
+    .bar-section__footer div{
+        width: 40%;
+        height: 15px;
+        background: #000;
+        border: 0;
+        border-radius:50px;
+        margin-top: 10%;
+    }
+
+.progress-bar__fill-section-1{
+    height: 100%;
+    background: #333333;
+}
+
+.progress-bar__fill-section-2{
+    height: 100%;
+    background: #eedec9;
+}
+
+.progress-bar__fill-section-3{
+    height: 100%;
+    background: #eedec9;
+}
+
+.progress-bar__fill-section-4{
+    height: 100%;
+    background: #eedec9;
+}
+
+@media screen and (min-width:480px) and (max-width: 768px){
+    .progress-bar{
+        height: 40px;;
+    }
+
+    .marker{
+        font-size: 15px;
+    }
+
+        .marker-1{
+            left: 48% !important;
+        }
+
+        .marker-2{
+            left: 60% !important;
+        }
+
+        .marker-3{
+            left: 72% !important;
+        }
+
+        .marker-4{
+            left: 84% !important;
+        }
+}

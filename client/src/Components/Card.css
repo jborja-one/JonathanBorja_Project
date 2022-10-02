@@ -1,0 +1,50 @@
+.card{
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 50px 30px;
+}
+
+    .card-img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-body{
+        padding: 20px;
+    }
+
+        .card-body h3, .card-body h2{
+            font-weight: bold;
+        }
+
+        .card-body div p{
+            font-size: 25px;
+            color: #777;
+            margin: 10px 0;
+        }
+
+@media screen and (min-width:480px) and (max-width: 768px){
+    .card{
+        width: 45%;
+        margin: 20px 10px;
+    }
+
+    .card-body h3{
+        font-size: 14px;
+    }
+
+        .card-body div div svg{
+            width: 15px;
+            height: 15px;
+        }
+
+        .card-body div p{
+            font-size: 12px;
+        }
+}
